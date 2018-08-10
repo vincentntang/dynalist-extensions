@@ -238,3 +238,10 @@ Optional Can Delete Below
 .Node[style^="background: rgb(51, 51, 51)"] .node-italics {
 	font-style: normal;
 }
+
+/* PRINT MEDIA QUERY FIX */
+@media print {
+  .Node-self {
+  	padding-left: 90px !important;
+  }
+}
