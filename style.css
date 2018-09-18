@@ -12,7 +12,7 @@
 	visibility: hidden;
 }
 /* Displays Any Collapsed bulletpoint */
-.Node.is-currentRoot .Node .is-collapsed>.Node-bullet:before {
+.Node.is-currentRoot .Node .is-collapsed.is-parent>.Node-bullet:before {
  	color:red;
     visibility: visible;
 }
@@ -123,9 +123,9 @@ a[href^="http://stackoverflow.com"] {
 a[href^="https://github.com"] {
 	color: #ff99a8;
 }
-a[href^="https://dynalist.io"] {
+/*a[href^="https://dynalist.io"] {
 	color: red;
-}
+}*/
 a[title^="Filter #"] {
 	color: #000099;
 	font-style: normal;
